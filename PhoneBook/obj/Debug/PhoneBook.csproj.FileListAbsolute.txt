@@ -1,0 +1,13 @@
+C:\Users\artur\source\repos\PhoneBook\bin\Debug\PhoneBook.exe.config
+C:\Users\artur\source\repos\PhoneBook\bin\Debug\PhoneBook.exe
+C:\Users\artur\source\repos\PhoneBook\bin\Debug\PhoneBook.pdb
+C:\Users\artur\source\repos\PhoneBook\obj\Debug\PhoneBook.csprojAssemblyReference.cache
+C:\Users\artur\source\repos\PhoneBook\obj\Debug\PhoneBook.PhoneBook.resources
+C:\Users\artur\source\repos\PhoneBook\obj\Debug\PhoneBook.Properties.Resources.resources
+C:\Users\artur\source\repos\PhoneBook\obj\Debug\PhoneBook.csproj.GenerateResource.cache
+C:\Users\artur\source\repos\PhoneBook\obj\Debug\PhoneBook.exe
+C:\Users\artur\source\repos\PhoneBook\obj\Debug\PhoneBook.pdb
+C:\Users\artur\source\repos\PhoneBook\bin\Debug\dje-NE\PhoneBook.resources.dll
+C:\Users\artur\source\repos\PhoneBook\obj\Debug\PhoneBook.PhoneBook.dje-NE.resources
+C:\Users\artur\source\repos\PhoneBook\obj\Debug\dje-NE\PhoneBook.resources.dll
+C:\Users\artur\source\repos\PhoneBook\obj\Debug\PhoneBook.AccesWindowBox.resources
