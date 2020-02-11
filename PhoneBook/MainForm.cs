@@ -99,11 +99,12 @@ namespace PhoneBook
         }
 
         /// <summary>
-        /// Clear fields, which are mandatory to fill.
+        /// Clear fields, which are mandatory to fill and SearchBoxes(textBoxSearchByName and textBoxSearchByNumber).
         /// </summary>
         public void Clear()
         {
-            textBoxFirstName.Text = textBoxLastName.Text = maskedTextPhoneNumber.Text = "";
+            textBoxFirstName.Text = textBoxLastName.Text = maskedTextPhoneNumber.Text = textBoxSearchByName.Text
+                = textBoxSearchByNumber.Text = "";
             textBoxFirstName.Focus();
         }
         /// <summary>
@@ -213,6 +214,7 @@ namespace PhoneBook
 
         private void buttonSave_Click(object sender, EventArgs e)
         {
+            PhonebookID = 0;
             SqlConnection sqlConnection = new SqlConnection(sqlconnectionstring);
 
             try
