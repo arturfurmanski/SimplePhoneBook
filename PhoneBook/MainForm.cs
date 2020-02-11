@@ -16,7 +16,7 @@ namespace PhoneBook
     {
         public string sqlconnectionstring = @"Data Source=DESKTOP-UPFF4R0\SQLEXPRESS;Initial Catalog=PhoneBook;Integrated Security=True";
         /// <summary>
-        /// Primary key in table, which store PhoneBook data.
+        /// Primary key in PhoneBook table, from PhoneBook DataBase.
         /// </summary>
         int PhonebookID;
 
@@ -99,7 +99,7 @@ namespace PhoneBook
         }
 
         /// <summary>
-        /// Clear fields are mandatory to fill.
+        /// Clear fields, which are mandatory to fill.
         /// </summary>
         public void Clear()
         {
@@ -319,7 +319,7 @@ namespace PhoneBook
 
         private void dataGridViewPhoneBook_DoubleClick(object sender, EventArgs e)
         {
-            //Below Condition exist to avoid NullReferenceException, in case dataGridViewPhoneBook would be empty.
+            //Below Condition exists to avoid NullReferenceException, in case dataGridViewPhoneBook would be empty.
             if (!Object.ReferenceEquals(dataGridViewPhoneBook.CurrentRow, null))
             {
                 buttonUpDate.Enabled = true;
@@ -374,13 +374,13 @@ namespace PhoneBook
         }
 
         /// <summary>
-        /// Disable ButtonDelete after choice record from dataGridViewPhoneBook and change at least one of his item.
+        /// Disable ButtonDelete after choice record from dataGridViewPhoneBook and change at least one of its item.
         /// </summary>
         /// <param name= "textcontrol">Text from control matching to particular cell in dataGridViewPhoneBook.</param>
         /// <param name="cellIndex">Index of Cell in dataGridViewPhoneBook matching to particular text from control. </param>
         void InactiveDeleteButton(string textcontrol, int cellIndex)
         {
-            //Below Condition exist to avoid NullReferenceException, in case dataGridViewPhoneBook would be empty.
+            //Below Condition exists to avoid NullReferenceException, in case dataGridViewPhoneBook would be empty.
             if (!Object.ReferenceEquals(dataGridViewPhoneBook.CurrentRow, null))
             {
                 if (textcontrol != dataGridViewPhoneBook.CurrentRow.Cells[cellIndex].Value.ToString().Trim())
